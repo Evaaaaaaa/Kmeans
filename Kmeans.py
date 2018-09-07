@@ -78,7 +78,7 @@ def pca_k(trans):
   return labels
 
 def main():
-    address = '/Users/Evangeline0519/PycharmProjects/Kmeans/simple mem.csv'
+    address = 'simple mem.csv'
     m = loadSet(address)
     trans = m.drop('MEM_ID',1)
     # represent the labels of each element in the matrix
